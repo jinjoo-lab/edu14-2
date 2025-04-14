@@ -8,7 +8,7 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 
 spec:
-  project: edu31
+  project: default
   
   source:
     repoURL: https://github.com/shclub/edu14-2.git
@@ -17,7 +17,7 @@ spec:
   
   destination:
     server: https://kubernetes.default.svc
-    namespace: edu31
+    namespace: default
   
   syncPolicy:
     automated: 
