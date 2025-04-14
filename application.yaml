@@ -9,10 +9,10 @@ metadata:
 
 spec:
 
-  project: edu31
+  project: default
   
   source:
-    repoURL: https://github.com/shclub/edu14-2.git
+    repoURL: https://github.com/jinjoo-lab/edu14-2.git
     targetRevision: HEAD
     path: apps
   
